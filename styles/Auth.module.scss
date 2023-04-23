@@ -1,0 +1,114 @@
+@import 'variables';
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    .background {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        img {
+            width: 120%;
+            float: right;
+        }
+    }
+
+    .formContainer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 600px;
+        height: 100%;
+        background: #f1f1f1;
+
+        -webkit-box-shadow: -5px 0px 12px 2px rgba(0,0,0,0.2); 
+        box-shadow: -5px 0px 12px 2px rgba(0,0,0,0.2);
+        padding: 50px;
+
+        h1 {
+            top: 100px;
+        }
+
+        .formCard {
+            border: 1px solid #c1c1c1;
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 30px;
+
+            .loginForm {
+
+                .inputs {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    input {
+                        background-color: none;
+                        border: 2px solid #c1c1c1;
+                        border-radius: 100px;
+                        padding: 0 15px;
+                        height: 40px;
+                        background: none;
+                    }
+
+                    .controllers {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-top: 20px;
+    
+                        .right {
+                            gap: 5px;
+                            display: flex;
+                            align-items: center;
+                            .register {
+                                color: $successColor;
+                            }
+                        }
+                    }
+
+                }
+
+                
+            }
+
+            .registerForm {
+                .inputs {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    input {
+                        background-color: none;
+                        border: 2px solid #c1c1c1;
+                        border-radius: 100px;
+                        padding: 0 15px;
+                        height: 40px;
+                        background: none;
+                    }
+
+                    .controllers {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-top: 20px;
+    
+                        .right {
+                            gap: 5px;
+                            display: flex;
+                            align-items: center;
+                            .register {
+                                color: $successColor;
+                            }
+                        }
+                    }
+
+                }
+
+                
+            }
+        }
+    }
+}

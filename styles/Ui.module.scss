@@ -1,0 +1,20 @@
+@import 'variables';
+
+
+.button {
+    min-height: 40px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background: $successColor;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+
+    &.outlined {
+        border: 2px solid #c1c1c1;
+        color: $textColor;
+        background: none;
+    }
+
+}
